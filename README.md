@@ -1,5 +1,4 @@
-# Düğün Organizasyon Sistemi
-
+<h4 align="center">Düğün Organizasyon Sistemi SQL</h4>
 <div align="center">
   <span style="display: inline-block; margin-right: 10px;">
     <img src="https://img.shields.io/badge/Database-MySQL-blue" alt="MYSQL">
@@ -11,10 +10,11 @@
 
 <p align="center">
   <a href="#overview">Proje Açıklaması</a> •
-  <a href="#structure">Veritabanı Yapısı</a> •
-  <a href="#installation">Kurulum Talimatları</a> 
+  <a href="#structure">Veritabanı Yapısı</a>
 </p>
-
+<div align="center">
+  <img src="https://github.com/Froxerr/weddingSql/blob/main/wedding.png" alt="ss1">
+</div>
 <h2 id="overview">Proje Açıklaması</h2>
 
 Bu sistem, düğün organizasyonlarını yönetmek ve düzenlemek için tasarlanmış kapsamlı bir web uygulamasıdır. 
@@ -125,38 +125,8 @@ Projenin amacı, düğün organizasyon süreçlerini daha verimli hale getirmek 
 - Veritabanı şema değişikliklerinin kaydını tutan tablo
 - Migration sürümleri ve çalıştırma tarihleri
 
-<h2 id="installation">Kurulum Talimatları</h2>
 
-Bu Laravel uygulamasını klonlamak ve çalıştırmak için bilgisayarınızda Git ve Composer (PHP bağımlılıkları için) kurulu olmalıdır. Komut satırından:
-
-```bash
-# Bu repository'yi klonlayın
-$ git clone https://github.com/your-username/wedding-organization-system.git
-
-# Proje dizinine gidin
-$ cd wedding-organization-system
-
-# Veritabanını kurun
-# Öncelikle MySQL veya MariaDB'nin kurulu ve çalışır durumda olduğundan emin olun
-
-# MySQL'e giriş yapın (MySQL kullanıcı adınızı kullanın)
-$ mysql -u your_db_username -p
-
-# Yeni bir veritabanı oluşturun
-$ CREATE DATABASE wedding_organization;
-
-# MySQL'den çıkın
-$ exit
-
-# SQL dump dosyasını veritabanınıza import edin
-$ mysql -u your_db_username -p wedding_organization < wedding.sql
-
-# Veya alternatif olarak
-$ source /path/to/your/wedding.sql;
-
-# Import işleminden sonra tabloları kontrol edin
-$ SHOW TABLES;
-```
-
-> **Not**
-> Windows'ta Linux Bash kullanıyorsanız, [bu rehbere bakın](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) veya komut isteminden `node` kullanın. 
+> GitHub https://github.com/Froxerr &nbsp;&middot;&nbsp; <br>
+> LinkedIn https://www.linkedin.com/in/ibrahim-aral-99804a344/ <br>
+> GitHub https://github.com/NURSENAKTAS &nbsp;&middot;&nbsp; <br>
+> LinkedIn https://www.linkedin.com/in/nurşen-aktaş-329193303/
